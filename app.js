@@ -24,7 +24,7 @@ var commentRoutes    = require("./routes/comments"),
 mongoose.Promise = global.Promise;
 
 // const databaseUri = process.env.MONGODB_URI || 'mongodb://localhost/yelp_camp_v13';
-const databaseUri = process.env.MONGODB_URI || 'mongodb://root:1111@ds121960.mlab.com:21960/thaichiccool';
+const databaseUri = process.env.MONGODB_URI;
 
 mongoose.connect(databaseUri)
       .then(() => console.log(`Database connected`))
