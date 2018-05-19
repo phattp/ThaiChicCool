@@ -4,10 +4,30 @@ html {
   position: relative;
   min-height: 100%;
 }
+
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+  margin-top: 55px;
 }
+
+header {
+  background-image: url(https://images.wallpaperscraft.com/image/pier_dock_sea_dusk_shore_118549_1920x1080.jpg);
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
+  height: 30rem;
+  margin-bottom: 25px;
+}
+
+h1 {
+  font-family: Kanit;
+  font-size: 3.5em;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -34,6 +54,10 @@ body {
     padding: 9px;
 }
 
+.navbar-brand {
+  font-family: Kanit;
+}
+
 /* Google Map styles */
 #map {
 	height: 400px;
@@ -49,4 +73,50 @@ body {
 .flex-wrap {
   display:flex;
   flex-wrap: wrap;
+}
+
+.jumbotron {
+  background-color: transparent;
+  padding-top: 6em;
+}
+
+#carditem {
+  margin-bottom: 15px;
+}
+
+#jumbo-header {
+  text-shadow: 2px 2px 10px black;
+  color: #fff;
+}
+
+#hder {
+  font-family: Kanit;
+  font-size: 1.1em;
+  text-shadow: 2px 2px 10px black;
+  color: #fff;
+}
+
+#topic {
+  margin-top: 70px;
+}
+
+#topic-header {
+  font-size: 2em;
+}
+
+#brand {
+  font-family: Kanit;
+}
+
+.sameline {
+  display: inline-block;
+}
+
+#card-comment {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#comment-text {
+  margin-bottom: 10px;
 }
